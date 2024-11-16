@@ -1,0 +1,556 @@
+body{
+  color: #40514E;
+  margin: 0px;
+  text-align: center;
+  font-family: Tahoma,Verdana,Segoe,sans-serif;
+  /* font-family: 'Merriweather', serif; */
+
+}
+
+h1{
+  font-size: 5.625rem; /* 100% = 16px, 90px = (9,000/16) 562.5%)
+                        (1em = 16px = 100%), (90px=5.625em, 90/16)
+                        (rem) refers to the root em, So that means ignore all of the parent settings for
+                         the font size and just set it to this relative to the root (It is recommended).
+                         */
+  margin: 50px auto 0 auto; /*50px = 3.125rem*/;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  /* line-height: 2; 1 is the default */
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+p{
+  line-height: 2;
+  
+}
+hr{
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;  /* rgb(182, 180, 180);  */
+  width: 3%;
+  margin: 100px auto;
+  /* border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto; */
+  
+}
+
+.top-container{
+  background-color: #EAF6F6; /* #e3f6f5; #B3D2E1*/
+  position: relative;
+  padding-top: 100px;
+  /* height: 200px;
+  width: 200px;
+  border: 10px solid;
+  padding: 20px; */
+
+}
+
+.middle-container{
+  /* background-color: brown;
+  height: 200px;
+  width: 200px; */
+  /* border: 20px solid;
+  margin-left: 260px; */
+  margin: 100px 0;
+}
+
+.bottom-container{
+  /* background-color: aqua;
+  width: 200px;
+  height:200px; */
+  /* display: inline-block; */
+  /* border: 10px solid;
+  margin-left: 500px; */
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* .footer-link{
+  position: relative;
+  top: 30%;
+  padding: 20px;
+} */
+#copyright{
+  color: #EAF6F6;
+  font-size: 0.85rem;
+  /* padding: 20px 0; */
+  position: relative;
+  top: 20px;
+}
+
+#span{
+  text-decoration: underline;
+  font-weight: bold;
+}
+#top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 150px;
+}
+#bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.skill-row{
+  text-align: left;
+  margin: 100px auto;
+  width: 50%;
+  
+}
+
+.profile-img{
+  width: 15%;
+  /* width: 101.300px;
+  height: 101.300px;
+  margin: auto; */
+}
+.coding-img{
+  width:25%;
+  /* width: 150px 0; */
+  float: left;
+  margin-right: 30px;
+}
+.design-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+/* .pm{
+  clear: left;
+}
+.pm2{
+  clear: right;
+} */
+
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-me{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.about-home-contact{
+  height: 100px;
+  position: relative;
+  bottom: 70px;
+  margin-bottom: 100px;
+}
+.about{
+  position: relative;
+   left: 400px;
+}
+.about:hover{
+  color: #043737;
+}
+.home:hover{
+  color: #043737;
+}
+.home{
+  position: relative;
+   left: 400px;
+}
+.contact:hover{
+  color: #043737;
+}
+.contact{
+   position: relative;
+   left: 400px;
+}
+
+
+original
+
+
+body{
+  color: #40514E;
+  margin: 0px;
+  text-align: center;
+  font-family: Tahoma,Verdana,Segoe,sans-serif;
+  /* font-family: 'Merriweather', serif; */
+
+}
+
+h1{
+  font-size: 5.625rem; /* 100% = 16px, 90px = (9,000/16) 562.5%)
+                        (1em = 16px = 100%), (90px=5.625em, 90/16)
+                        (rem) refers to the root em, So that means ignore all of the parent settings for
+                         the font size and just set it to this relative to the root (It is recommended).
+                         */
+  margin: 50px auto 0 auto; /*50px = 3.125rem*/;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  /* line-height: 2; 1 is the default */
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+p{
+  line-height: 2;
+  
+}
+hr{
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;  /* rgb(182, 180, 180);  */
+  width: 3%;
+  margin: 100px auto;
+  /* border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto; */
+  
+}
+
+.top-container{
+  background-color: #EAF6F6; /* #e3f6f5; #B3D2E1*/
+  position: relative;
+  padding-top: 100px;
+  /* height: 200px;
+  width: 200px;
+  border: 10px solid;
+  padding: 20px; */
+
+}
+
+.middle-container{
+  /* background-color: brown;
+  height: 200px;
+  width: 200px; */
+  /* border: 20px solid;
+  margin-left: 260px; */
+  margin: 100px 0;
+}
+
+.bottom-container{
+  /* background-color: aqua;
+  width: 200px;
+  height:200px; */
+  /* display: inline-block; */
+  /* border: 10px solid;
+  margin-left: 500px; */
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* .footer-link{
+  position: relative;
+  top: 30%;
+  padding: 20px;
+} */
+#copyright{
+  color: #EAF6F6;
+  font-size: 0.85rem;
+  /* padding: 20px 0; */
+  position: relative;
+  top: 20px;
+}
+
+#span{
+  text-decoration: underline;
+  font-weight: bold;
+}
+#top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+#bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.skill-row{
+  text-align: left;
+  margin: 100px auto;
+  width: 50%;
+  
+}
+
+.profile-img{
+  width: 15%;
+  /* width: 101.300px;
+  height: 101.300px;
+  margin: auto; */
+}
+.coding-img{
+  width:25%;
+  /* width: 150px 0; */
+  float: left;
+  margin-right: 30px;
+}
+.design-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+/* .pm{
+  clear: left;
+}
+.pm2{
+  clear: right;
+} */
+
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-me{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+2nd html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Moha Salad</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Changa&family=Crete+Round&family=Josefin+Sans&family=Kanit&family=Lato&family=Merriweather&family=Montserrat&family=Open+Sans:ital@1&family=Roboto&family=Roboto+Slab&family=Sacramento&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="top-container">
+    <div class="about-home-contact">
+      <img id="home" src="Images/React.png" alt="">
+      <a href="#" class="home">About</a>
+      <a href="#" class="about">Work</a>
+      <a href="#" class="contact">Notes</a>
+    </div>
+    <img id="top-cloud" src="Images/cloud.png" alt="cloud-img">
+    <h1>
+      I'm Mohamed
+    </h1>
+    <h2>
+      A Soft<span id="span">ware</span>  Engineer
+    </h2>
+    <img id="bottom-cloud" src="Images/cloud.png" alt="cloud-img">
+    <img src="Images/mountain.png" alt="mountain-img">
+
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-img" src="Images/Moha-modified.png" alt="Mohamed">
+      <h2>Hello</h2>
+      <p class="intro">I'm Mohamed Salad, a software engineer at Microsoft. I am a Software, App and Web Developer and i am the founder of Mohamed Academy.</p>
+    </div>
+    <hr size="3" >
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="coding-img" src="Images/coding-circle1.png" alt="Coding-img">
+        <h3>Software, Mobile App and Web Developer</h3>
+        <p class="pm">I started learning how to code in 2021, i thought it was too late to 
+          become a software engineer, but i was totally wrong, It is never too late to build your
+           dreams. Since that i have gained alot of experience in this environment. Coding is not hard,
+           but coding everyday is hard. Know i work at Microsoft and as a freelancer.</p>
+      </div>
+      <div class="skill-row">
+        <img class="design-img" src="Images/photoshop-circle1.png" alt="Graphic-design-img">
+        <h3>Graphic Design and Video Editing</h3>
+        <p class="pm2"> I think it is very important that every programmer or every web designer 
+          to have a good background of Editing photos and videos. 
+          And me as a Web Developer i have enough knowledge of Graphic Designing and Editing.</p>
+      </div>
+    </div>
+    <hr size="3" >
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Contact me and i promise to give you the services of your dream.</h3>
+      <p>You can email me by clicking the CONTACT ME button below, or send me DM through
+         my Social media in the links below, Thank You.</p>
+         <a class="btn" href="mailto:mr.mohamedsalad@email.com">CONTACT ME</a> 
+    </div>
+  </div>
+  
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/mohamed-salad-3a51a4261">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/Moha_salad1">Twitter</a>
+    <a class="footer-link" href="https://www.instagram.com/moha_salad1"> Instagram</a>
+    <a class="footer-link" href="https://mohasalad.github.io/CV/">Website</a>
+    <p id="copyright">© 2023 Mohamed Salad</p>
+  </div>
+  
+</body>
+</html>
+
+1st html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Moha Salad</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Changa&family=Crete+Round&family=Josefin+Sans&family=Kanit&family=Lato&family=Merriweather&family=Montserrat&family=Open+Sans:ital@1&family=Roboto&family=Roboto+Slab&family=Sacramento&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="top-container">
+    <img id="top-cloud" src="Images/cloud.png" alt="cloud-img">
+    <h1>
+      I'm Mohamed
+    </h1>
+    <h2>
+      A Soft<span id="span">ware</span>  Engineer
+    </h2>
+    <img id="bottom-cloud" src="Images/cloud.png" alt="cloud-img">
+    <img src="Images/mountain.png" alt="mountain-img">
+
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-img" src="Images/Moha-modified.png" alt="Mohamed">
+      <h2>Hello</h2>
+      <p class="intro">I'm Mohamed Salad, a software engineer at Microsoft. I am a Software, App and Web Developer and i am the founder of Mohamed Academy.</p>
+    </div>
+    <hr size="3" >
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="coding-img" src="Images/coding-circle1.png" alt="Coding-img">
+        <h3>Software, Mobile App and Web Developer</h3>
+        <p class="pm">I started learning how to code in 2021, i thought it was too late to 
+          become a software engineer, but i was totally wrong, It is never too late to build your
+           dreams. Since that i have gained alot of experience in this environment. Coding is not hard,
+           but coding everyday is hard. Know i work at Microsoft and as a freelancer.</p>
+      </div>
+      <div class="skill-row">
+        <img class="design-img" src="Images/photoshop-circle1.png" alt="Graphic-design-img">
+        <h3>Graphic Design and Video Editing</h3>
+        <p class="pm2"> I think it is very important that every programmer or every web designer 
+          to have a good background of Editing photos and videos. 
+          And me as a Web Developer i have enough knowledge of Graphic Designing and Editing.</p>
+      </div>
+    </div>
+    <hr size="3" >
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Contact me and i promise to give you the services of your dream.</h3>
+      <p>You can email me by clicking the CONTACT ME button below, or send me DM through
+         my Social media in the links below, Thank You.</p>
+         <a class="btn" href="mailto:mr.mohamedsalad@email.com">CONTACT ME</a> 
+    </div>
+  </div>
+  
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/mohamed-salad-3a51a4261">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/Moha_salad1">Twitter</a>
+    <a class="footer-link" href="https://www.instagram.com/moha_salad1"> Instagram</a>
+    <a class="footer-link" href="https://mohasalad.github.io/CV/">Website</a>
+    <p id="copyright">© 2023 Mohamed Salad</p>
+  </div>
+  
+</body>
+</html>
